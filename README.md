@@ -1,2 +1,0 @@
-# EMD
-Employe Managment System
