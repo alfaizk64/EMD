@@ -197,7 +197,9 @@ select {
     overflow: hidden;
     height: 300px; /*Set a fixed height for proper alignment*/
   }
-  
+  .department h3{
+    color: black;
+  }
   .department img {
     width: 100%;
     height: 100%;
