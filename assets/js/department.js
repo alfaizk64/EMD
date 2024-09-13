@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function redirectToMainPage() {
-  window.location.href = "index.html";
+  window.location.href = "MainProfile.html";
 }
 
 function redirectToDepartment(department) {
