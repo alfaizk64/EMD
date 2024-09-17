@@ -160,13 +160,13 @@ let openBars = document.getElementById("openBars");
 let closeBar = document.getElementById("closeBar");
 
 openBars.addEventListener("click", () => {
-  sideMenu.style.transform = "translateX(-16rem)";
+ sideMenu.classList.add("active")
 });
 closeBar.addEventListener("click", () => {
-  sideMenu.style.transform = "translateX(0rem)";
+  sideMenu.classList.remove("active")
 });
 sideMenu.addEventListener("mouseleave", () => {
-  sideMenu.style.transform = "translateX(0rem)";
+  sideMenu.classList.remove("active")
 });
 
 
