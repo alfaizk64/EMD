@@ -170,4 +170,8 @@ openBars.addEventListener("click", () => {
  sideMenu.addEventListener("mouseleave", () => {
    sideMenu.classList.remove("active")
  });
- 
+
+ // sign_out functionality
+function signOut() {
+  window.location.href = "index.html";
+}

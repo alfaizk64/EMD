@@ -187,3 +187,8 @@ function closeAlert() {
   const alertBox = document.getElementById('customAlert');
   alertBox.style.display = 'none';
 }
+// sign_out functionality
+
+function signOut() {
+  window.location.href = "index.html";
+}
